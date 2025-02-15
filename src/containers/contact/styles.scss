@@ -1,0 +1,31 @@
+.contact {
+    &__content {
+      padding: 20px;
+  
+      &__info {
+        margin-top: 30px;
+  
+        &__details {
+          margin-bottom: 15px;
+          font-size: 26px;
+          color: var(--yellow-theme-sub-text-color);
+          font-weight: 500;
+          display: flex;
+          align-items: center;
+  
+          a {
+            color: #ffcc00;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            transition: color 0.3s;
+  
+            &:hover {
+              color: #0056b3;
+            }
+          }
+        }
+      }
+    }
+  }
+  
